@@ -1,10 +1,11 @@
 Package: MARS
-Title: What the Package Does (One Line, Title Case)
+Title: Multivariate Adaptive Regression Splines
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Rachel ","Oh", , "ohdaeuno@sfu.ca", role = c("aut", "cre"))
+    person("Sho ","Inagaki", , "sia15@sfu.ca", role = c("aut", "cre"))
+    person("Isaac ","Baguisa", , "iab@sfu.ca", role = c("aut", "cre"))
+Description: mars is used to fit multivariate adaptive regression splines. It can be used to model a nonlinearity and interactions, and to carry out analysis of variance. This method splits the data into segments, and fits a linear regression model for each segment. The final model is a combination of these segments.
 License: AGPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
