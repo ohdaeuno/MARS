@@ -16,6 +16,6 @@ data: The folder containing master data used for class excercise.
 
 man: The folder containing help files for mars(). 
 
-tests: The folder containing test file with 3 examples with real dataset.
+tests: The folder containing test file with 3 examples with real dataset (test.R).
 
 vignettes: The folder containing guide to our package, MARS.
